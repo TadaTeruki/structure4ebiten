@@ -13,8 +13,10 @@ func RunGame() {
 		World:  engine.NewWorld(config.WorldWidth, config.WorldHeight),
 		Screen: engine.NewScreen(config.ScreenWidth, config.ScreenHeight),
 	}
+
 	ebiten.SetWindowSize(game.Screen.Width, game.Screen.Height)
-	ebiten.SetWindowTitle("Tada")
+	ebiten.SetWindowTitle(config.WindowTitle)
+
 	if err := ebiten.RunGame(game); err != nil {
 		log.Fatal(err)
 	}

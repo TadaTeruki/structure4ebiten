@@ -5,4 +5,6 @@ const (
 	ScreenHeight int = 1080
 	WorldWidth   int = 500
 	WorldHeight  int = 400
+
+	WindowTitle string = "structure4ebiten"
 )
