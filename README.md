@@ -1,2 +1,5 @@
 # structure4ebiten
-ebitengineを使った作品に用いるファイル構成
+ebitengineを使う作品に用いる基本的なファイル構成です。
+
+# License
+自由に使ってください。
