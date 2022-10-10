@@ -1,0 +1,2 @@
+# structure4ebiten
+ebitengineを使った作品に用いるファイル構成
